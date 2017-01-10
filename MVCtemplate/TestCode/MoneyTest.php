@@ -9,7 +9,7 @@ use PHPUnit\Framework\TestCase;
 class MoneyTest extends TestCase
 {
     /**
-     * Testing
+     * Testing asasdas
      */
     public function testCanBeNegated()
     {

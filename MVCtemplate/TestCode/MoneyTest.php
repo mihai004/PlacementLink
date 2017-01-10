@@ -13,7 +13,7 @@ class MoneyTest extends TestCase
      */
     public function testCanBeNegated()
     {
-        // Arrange
+        // Arrange add
         $a = new Money(1);
 
         // Act
@@ -23,16 +23,4 @@ class MoneyTest extends TestCase
         $this->assertEquals(-1, $b->getAmount());
     }
 
-    /**
-     * @depends testCanBeNegated
-     */
-    public function checkValue($flag){
-
-        if($flag = true) {
-            echo 'true';
-        }
-        else {
-            echo 'false';
-        }
-    }
 }

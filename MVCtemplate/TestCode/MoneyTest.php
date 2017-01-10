@@ -14,7 +14,7 @@ class MoneyTest extends TestCase
     public function testCanBeNegated()
     {
         $flag = false;
-        // Arrange asdasdfasfasdfasd
+        // Arrange 
         $a = new Money(1);
 
         // Act

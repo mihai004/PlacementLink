@@ -8,5 +8,7 @@
  */
 class Database
 {
+    public function demo(){
 
+    }
 }

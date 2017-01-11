@@ -1,0 +1,26 @@
+Index: MVCtemplate/TestCode/MoneyTest.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- MVCtemplate/TestCode/MoneyTest.php	(date 1484059801000)
++++ MVCtemplate/TestCode/MoneyTest.php	(revision )
+@@ -13,8 +13,7 @@
+      */
+     public function testCanBeNegated()
+     {
+-        $flag = false;
+-        // Arrange 
++        // Arrange
+         $a = new Money(1);
+ 
+         // Act
+@@ -22,8 +21,6 @@
+ 
+         // Assert
+         $this->assertEquals(-1, $b->getAmount());
+-        $flag = true;
+-        return $flag;
+     }
+ 
+     /**
